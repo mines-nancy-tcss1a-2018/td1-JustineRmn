@@ -19,6 +19,8 @@ def solve(n):
         total += score(Liste_noms[i],i+1)
     return (score(Liste_noms[n-1],n),total)
 
+print(solve(0)[1])
+
 assert(solve(938)[0] == 49714)
 
         
